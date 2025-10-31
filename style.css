@@ -1,5 +1,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 
+  body {
+      background: url(https://thumbs.dreamstime.com/b/c%C3%A9u-alaranjado-impetuoso-do-por-do-sol-c%C3%A9u-bonito-58097117.jpg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+
   h1 {
       font-family: "Sixtyfour", sans-serif;
       color: rgb(0, 0, 0);
