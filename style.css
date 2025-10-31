@@ -1,0 +1,31 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+  h1 {
+      font-family: "Sixtyfour", sans-serif;
+      color: rgb(0, 0, 0);
+      text-align: center;
+  }
+
+
+  #desktop {
+      height: 300px;
+      border-radius: 20px;
+  }
+
+  /*Estilo para o parágrafo*/
+  p {
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1.5;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*estilo de imagem*/
+
+  img {
+      display: block;
+      margin: 20px auto;
+      width: 400px;
+      height: 400px;
+  }
