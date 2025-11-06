@@ -1,12 +1,33 @@
   @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 
   body {
-      background: url('https://thumbs.dreamstime.com/b/c%C3%A9u-alaranjado-impetuoso-do-por-do-sol-c%C3%A9u-bonito-58097117.jpg');
+      background: url('https://img.freepik.com/fotos-premium/ceu-alaranjado-azul-do-por-do-sol-com-sol-e-nuvens-coloridas_104337-7374.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      
   }
+
+  #card {
+      background-color: #ffffff;
+      /* Cor de fundo branca */
+      border-radius: 20px;
+      /* Bordas arredondadas */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      /* Sombra suave */
+      padding: 40px;
+      /* Espaçamento interno */
+      max-width: 500px;
+      /* Largura máxima do card */
+      text-align: center;
+      /* Centraliza o texto */
+  }
+
+
 
   h1 {
       font-family: "Sixtyfour", sans-serif;
@@ -34,6 +55,14 @@
   img {
       display: block;
       margin: 20px auto;
-      width: 400px;
+      width: 500px;
       height: 400px;
+      object-fit: cover;
+      object-position: center;
+  }
+
+  .legenda-foto {
+      font-size: 12px;
+      font-style: italic;
+
   }
